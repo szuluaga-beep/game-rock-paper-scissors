@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-    <h1>Hola</h1>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <section class="principal">
+      <div class="puntajes">
+        <div class="puntaje puntaje-usuario">
+          <h2>Usuario</h2>
+          <p>0</p>
+        </div>
+        <div class="puntaje puntaje-computador">
+          <h2>Computador</h2>
+          <p>0</p>
+        </div>
+      </div>
+      <div class="tablero">
+        <div class="manos">
+          <img
+            class="mano-usuario"
+            src="./assets/piedra_ada.png"
+            alt="Opción elegida por el usuario"
+          />
+          <img
+            class="mano-computador"
+            src="./assets/piedra_computadora.png"
+            alt="Opción elegida por el computador"
+          />
+        </div>
+        <h1 class="resultado">Seleccione una opción</h1>
+        <div class="opciones">
+            <buttton class="botones piedra">
+            <img src="./assets/piedra_ada.png" alt=""
+            class="mano mano-usuario" />
+          </buttton>
+          <buttton class="botones papel">
+            <img src="./assets/papel_ada.png" alt=""
+            class="mano mano-usuario" />
+          </buttton>
+          <buttton class="botones tijera">
+            <img src="./assets/tijera_ada.png" alt=""
+            class="mano mano-usuario" />
+          </buttton>
+        </div>
+      </div>
+    </section>
+
+    <footer class="centrado">
+      <span> Hecho con mucho 😍 y ☕ </span>
+    </footer>
+    
     <script src=""></script>
-</body>
+  </body>
 </html>
