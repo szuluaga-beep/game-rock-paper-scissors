@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Mono:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
