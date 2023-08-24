@@ -4,3 +4,7 @@ In each round of the game, you will have 3 gestures: rock (closed fist), paper (
 
 
 In this repo you will find the basic structure and logic of the game.
+
+- HTML
+- CSS
+- Javascript
