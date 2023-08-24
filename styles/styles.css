@@ -34,10 +34,11 @@ body {
     font-size: 2rem;
 }
 
-.jugando .manos img{
+.jugando .manos img {
     animation: shake 2s ease;
     -webkit-animation: shake 2s ease;
 }
+
 .manos {
     display: flex;
     justify-content: space-around;
@@ -86,32 +87,40 @@ body {
     font-size: 1rem;
 }
 
-@keyframes shake{
+@keyframes shake {
     0% {
         transform: translateY(0px);
-      }
-      15% {
+    }
+
+    15% {
         transform: translateY(-25px);
-      }
-      25% {
+    }
+
+    25% {
         transform: translateY(0px);
-      }
-      35% {
+    }
+
+    35% {
         transform: translateY(-25px);
-      }
-      50% {
+    }
+
+    50% {
         transform: translateY(0px);
-      }
-      65% {
+    }
+
+    65% {
         transform: translateY(-25px);
-      }
-      75% {
+    }
+
+    75% {
         transform: translateY(0px);
-      }
-      85% {
+    }
+
+    85% {
         transform: translateY(-25px);
-      }
-      100% {
+    }
+
+    100% {
         transform: translateY(0px);
-      }
+    }
 }
