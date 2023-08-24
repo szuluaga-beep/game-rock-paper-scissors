@@ -8,3 +8,5 @@ In this repo you will find the basic structure and logic of the game.
 - HTML
 - CSS
 - Javascript
+
+![image](https://github.com/szuluaga-beep/game-rock-paper-scissors/assets/69664305/8aa73004-1bf0-4dd3-a320-2d23126a0531)
