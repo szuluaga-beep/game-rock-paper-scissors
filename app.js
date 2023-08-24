@@ -19,13 +19,13 @@ let contUsuario = 0;
 let contCompu = 0;
 
 botonPiedra.addEventListener("click", () => {
-  manoUsuario.src = "../assets/piedra_ada.png";
-  manoComputador.src = "../assets/piedra_computadora.png";
+  manoUsuario.src = "./assets/piedra_ada.png";
+  manoComputador.src = "./assets/piedra_computadora.png";
   resultado.innerText = "...";
   tablero.classList.add("jugando");
   setTimeout(() => {
     eleccionUsuario = "piedra";
-    manoUsuario.src = "../assets/piedra_ada.png";
+    manoUsuario.src = "./assets/piedra_ada.png";
     eleccionComputadora();
     resultadoJuego();
     tablero.classList.remove("jugando");
@@ -33,26 +33,26 @@ botonPiedra.addEventListener("click", () => {
 });
 
 botonPapel.addEventListener("click", () => {
-  manoUsuario.src = "../assets/piedra_ada.png";
-  manoComputador.src = "../assets/piedra_computadora.png";
+  manoUsuario.src = "./assets/piedra_ada.png";
+  manoComputador.src = "./assets/piedra_computadora.png";
   resultado.innerText = "...";
   tablero.classList.add("jugando");
   setTimeout(() => {
     eleccionUsuario = "papel";
-    manoUsuario.src = "../assets/papel_ada.png";
+    manoUsuario.src = "./assets/papel_ada.png";
     eleccionComputadora();
     resultadoJuego();
     tablero.classList.remove("jugando");
   }, 2000);
 });
 botonTijera.addEventListener("click", () => {
-  manoUsuario.src = "../assets/piedra_ada.png";
-  manoComputador.src = "../assets/piedra_computadora.png";
+  manoUsuario.src = "./assets/piedra_ada.png";
+  manoComputador.src = "./assets/piedra_computadora.png";
   resultado.innerText = "...";
   tablero.classList.add("jugando");
   setTimeout(() => {
     eleccionUsuario = "tijera";
-    manoUsuario.src = "../assets/tijera_ada.png";
+    manoUsuario.src = "./assets/tijera_ada.png";
     eleccionComputadora();
     resultadoJuego();
     tablero.classList.remove("jugando");
@@ -64,15 +64,15 @@ const eleccionComputadora = () => {
 
   //Opción para piedra
   if (opcionAlAzar == 0) {
-    manoComputador.src = "../assets/piedra_computadora.png";
+    manoComputador.src = "./assets/piedra_computadora.png";
     eleccionCompu = "piedra";
   } else if (opcionAlAzar == 1) {
     //Opción para papel
-    manoComputador.src = "../assets/papel_computadora.png";
+    manoComputador.src = "./assets/papel_computadora.png";
     eleccionCompu = "papel";
   } else {
     //Opción para tijera
-    manoComputador.src = "../assets/tijera_computadora.png";
+    manoComputador.src = "./assets/tijera_computadora.png";
     eleccionCompu = "tijera";
   }
 };
