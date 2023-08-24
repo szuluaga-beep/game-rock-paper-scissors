@@ -48,6 +48,10 @@ body {
     height: 50px;
 }
 
+.mano-tablero {
+    height: 150px;
+}
+
 .opciones {
     display: flex;
     justify-content: space-evenly;
